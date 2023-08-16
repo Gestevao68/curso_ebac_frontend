@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    background-color: antiquewhite;
+}
+
+h1,form,ul header, ul li{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    
+}
+
+h1{
+    padding: 20px;
+    
+}
+
+form {
+    padding: 10px;
+    
+    
+}
+
+form input{ 
+    padding: 10px;
+    background-color: white;
+}
+
+form button{
+    background-color: cadetblue;
+    color:black;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header,h1{
+    font-family: 'Caprasimo', cursive;
+}
+ul li p:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#clicado{
+    text-decoration: line-through;
+}
+#naoclicado {
+    text-decoration: none;
+}
