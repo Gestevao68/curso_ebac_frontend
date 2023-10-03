@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex_avancado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header>
+        <h1>AnimesView Blog</h1>
+    </header>
+
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-12 ">
+                <div id="carousel-ex" class="carousel carousel-fade slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block wd-100" src="./imagens/07.png" alt="">
+                            <div class="carousel-caption ">
+                                <h2>imagem 01</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block wd-100" src="./imagens/08.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h2>imagem 02</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block wd-100" src="./imagens/09.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h2>imagem 03</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <button data-bs-target="#carousel-ex" class="carousel-control-prev" type="button" data-bs-slide="prev"><!--Botão de antes-->
+                            <span class="carousel-control-prev-icon"></span><!--Pelo oq eu entendi, aqui é o icone do botão-->
+                        </button>
+                        <button data-bs-target="#carousel-ex" data-bs-slide="next" class="carousel-control-next" type="button"><!--Botão de depois-->
+                            <span class="carousel-control-next-icon"></span><!--Pelo oq eu entendi, aqui é o icone do botão-->
+                        </button>
+                        
+                        <div class="carousel-indicators"> <!--Botões individuais para cada imagem.-->
+                            <button type="button" class="active" data-bs-target="#carousel-ex" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel-ex" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-ex" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="./imagens/01.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+                <div class="card text-bg-dark">
+                    
+                    <img src="./imagens/02.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    
+                    <img src="./imagens/03.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="./imagens/04.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    
+                    <img src="./imagens/05.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    
+                    <img src="./imagens/06.jfif" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4> <!-- Titulo-->
+                        <h5 class="card-subtitle">Subtitulo do card</h5> <!-- Sub-Titulo-->
+                        <p class="card-body">Veja mais cards e suas utilidades.</p> <!-- Corpo-->
+                        <a href="#" class="btn btn-primary">Veja Mais</a> <!-- Botão-->
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>01/02/1003</time>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
